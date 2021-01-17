@@ -3,6 +3,8 @@
 Google Translate API for unlimited and free translations 📢.
 This project was inspired by [google-translate-api](https://github.com/matheuss/google-translate-api) and [google-translate-token](https://github.com/matheuss/google-translate-token).
 
+change github.com/bregydoc/gtranslate to github.com/Andystark/gtranslate
+
 # Install
 
     go get github.com/bregydoc/gtranslate
