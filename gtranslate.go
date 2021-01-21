@@ -21,7 +21,7 @@ func Translate(text string, from language.Tag, to language.Tag, googleHost ...st
 	if len(googleHost) != 0 && googleHost[0] != "" {
 		GoogleHost = googleHost[0]
 	}
-	translated, err := translate(text, from.String(), to.String(), false, 2, 0)
+	translated, err := translate(text, from.String(), to.String(), false, 2, time.Second)
 	if err != nil {
 		return "", err
 	}
